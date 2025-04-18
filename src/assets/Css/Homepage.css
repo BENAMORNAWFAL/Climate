@@ -1,0 +1,682 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://www.fontsquirrel.com');
+
+
+.home-content {
+
+    width: 100%;
+    color: #000;
+
+}
+
+@font-face {
+    font-family: 'vg5000_regularregular';
+    src: url('vg5000-regular_web-webfont.woff2') format('woff2'),
+        url('vg5000-regular_web-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+    font-family: 'vg5000_regularregular';
+    color: #60418D;
+
+}
+
+.main{
+    padding-top: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgba(152, 155, 155, 0.171);
+
+}
+
+.main p {
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main section{
+    margin-top: 8rem;
+}
+
+
+section {
+    animation: reveal linear;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 5%;
+}
+
+@keyframes reveal {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.cover {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #60418D, #41226e, #270b52, #3e1f5f, #32184e, #2B1344);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+.empowering-Careers {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    transform: translate(-50%);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empowering-Careers h2 {
+    position: relative;
+    top: 10%;
+    color: transparent;
+    display: inline-block;
+    align-content: center;
+    font-size: 4rem;
+}
+
+#first-title::before {
+    content: attr(data-text-1);
+    position: absolute;
+    color: #fff;
+    width: 96%;
+    white-space: nowrap;
+    border-right: 4px solid transparent;
+    animation: text-animation 2s linear 1;
+    filter: drop-shadow(0 0 20px #fff);
+}
+
+#second-title::before {
+    content: attr(data-text-2);
+    position: absolute;
+    color: #fff;
+    width: 96%;
+    white-space: nowrap;
+    border-right: 4px solid transparent;
+    animation: text-animation-two 2s linear 1;
+    filter: drop-shadow(0 0 20px #fff);
+    animation-delay: 2s;
+}
+
+#third-title::before {
+    content: attr(data-text-3);
+    position: absolute;
+    color: #fff;
+    width: 96%;
+    white-space: nowrap;
+    border-right: 4px solid transparent;
+    animation: text-animation-three 2s linear 1;
+    filter: drop-shadow(0 0 20px #fff);
+    /* opacity: 0; */
+    animation-delay: 4s;
+    /* font-size: 80%; */
+}
+
+@keyframes text-animation {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+
+}
+
+@keyframes text-animation-two {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+
+}
+
+@keyframes text-animation-three {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+
+}
+
+
+
+.climate-hr {
+    margin-top: 4rem;
+    display: flex;
+    padding: 2rem;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.hr-description {
+
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    filter: drop-shadow(0 0 5px #fff);
+}
+
+.hr-description h1 {
+    color: #60418D;
+}
+
+.climate-icon {
+   
+    width: auto;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+.under-title {
+    display: flex;
+    gap: 4rem;
+}
+
+.climate-helping-section {
+
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 6rem;
+
+}
+
+.climate-helping {
+    position: relative;
+    width: 100%;
+    height: 450px;
+
+
+}
+
+.under-helping {
+    position: absolute;
+    width: 35%;
+    height: 374px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(43% - 110px);
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+}
+
+#next2,
+#prev2 {
+    position: absolute;
+    top: 40%;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 50px;
+}
+
+#next2 {
+    left: unset;
+    right: 50px;
+}
+
+.cube_icon-HP {
+    width: 3rem;
+}
+
+
+
+
+.linkLearn {
+    color: #9e1289;
+}
+
+
+
+
+
+.tech-btc {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+.slider {
+
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tech-card {
+
+    width: 25%;
+    height: auto;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#next,
+#prev {
+    position: absolute;
+    top: 40%;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 50px;
+}
+
+#next {
+    left: unset;
+    right: 50px;
+}
+
+
+
+
+
+
+
+.climate-consulting {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.consulting-description {
+   
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    display: flex;
+    gap: 1.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 5px #fff);
+
+}
+
+.btn-explore {
+    box-shadow: 0 0 3px #621656, 0 0 3px #621656;
+    background-color: #6216576c;
+    color: #fff;
+    width: 130px;
+}
+
+.btn-explore:hover {
+    box-shadow: 0 0 5px #621656, 0 0 25px #621656, 0 0 50px #621656, 0 0 100px #621656, 0 0 200 #621656;
+    background-color: #621656;
+}
+
+.btn-sign {
+    box-shadow: 0 0 3px #fff, 0 0 3px #fff;
+    background-color: #ffffff8f;
+    color: #000;
+    width: 130px;
+}
+
+.btn-exp-sign {
+    display: flex;
+    gap: 1rem;
+}
+
+.hr-solutions {
+    margin-top: 10rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.Trust {
+
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex: 1;
+
+}
+
+.Trust h4 {
+
+    margin: 0;
+}
+
+.trustby {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    flex: 1;
+}
+
+.trustby img {
+    width: 100px;
+    animation: moveRightToLeft 3s linear infinite;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+@media (min-width: 993px) and (max-width: 1160px){
+    .empowering-Careers h2 {
+        font-size: 3.4rem;
+        line-height: normal;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .main{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        height: auto;
+    }
+    .cover {
+        margin-bottom: 0;
+    }
+
+    .empowering-Careers {
+        width: 90%;
+        height: auto;
+    }
+
+    .empowering-Careers h2 {
+        font-size: 160%;
+        line-height: normal;
+    }
+
+    .climate-hr,
+    .under-title,
+    .slider,
+    .climate-consulting,
+    .hr-solutions,
+    .hr-description,
+    .climate-helping-section,
+    .consulting-description,.Trust {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .climate-icon {
+        width: 100%;
+    }
+
+    .climate-helping {
+        position: relative;
+        max-width: 90%;
+        height: 600px;
+        overflow: hidden;
+    
+    }
+    
+    .under-helping {
+        width: 80%;
+        height: auto;
+        left: calc(10%);
+        top: 15%;
+      
+    }
+    
+    #next2 {
+        left: unset;
+        right: -45px;
+    }
+
+    #prev2 {
+        right: unset;
+        left: -45px;
+    }
+
+    .climate-helping-responsive {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .card-climate-helping-responsive{
+        border-radius: 10px;
+        padding: 1rem;
+        width: 80%;
+        height: auto;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .tech-btc{
+        padding: 0;
+    }
+    .tech-card{
+        width: 80%;
+        height: auto;
+    }
+
+    .trustby{
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .btn-exp-sign{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .climate-helping-section{
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: auto;
+    }
+    .cover {
+        margin-bottom: 0;
+    }
+
+    .empowering-Careers {
+        width: 90%;
+        height: auto;
+    }
+
+    .empowering-Careers h2 {
+        font-size: 100%;
+        line-height: normal;
+    }
+
+    .climate-hr,
+    .under-title,
+    .slider,
+    .climate-consulting,
+    .hr-solutions,
+    .hr-description,
+    .climate-helping-section,
+    .consulting-description,.Trust {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .climate-icon {
+        width: 100%;
+    }
+
+    
+
+    .climate-helping-responsive {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .card-climate-helping-responsive{
+        border-radius: 10px;
+        padding: 1rem;
+        width: 90%;
+        height: auto;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+   
+    .tech-btc{
+        padding: 0;
+    }
+    .tech-card{
+        width: 90%;
+        height: auto;
+    }
+
+    .trustby{
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .btn-exp-sign{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .climate-helping {
+        position: relative;
+        max-width: 100%;
+        height: 650px;
+        overflow: hidden;
+    
+    }
+    
+    .under-helping {
+       
+        width: 80%;
+        height: auto;
+        left: calc(10%);
+        top: 15%;
+      
+    }
+    
+    #next2 {
+        left: unset;
+        right: -45px;
+    }
+
+    #prev2 {
+        right: unset;
+        left: -45px;
+    }
+  
+}

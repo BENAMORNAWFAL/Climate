@@ -1,0 +1,696 @@
+.FreeelanceSchool-Page {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: rgba(152, 155, 155, 0.171);
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.FreeelanceSchool-Page a {
+  width: 130px;
+}
+
+.FreeelanceSchool-Page p {
+  color: #455a64;
+  padding: 0;
+}
+
+.FreeelanceSchool-Page h5 {
+  color: #183491;
+}
+
+
+.Top {
+
+  width: 100%;
+  height: 110vh;
+  background: linear-gradient(45deg, #02eeff, #0395f7, #045cad, #0d1ac9, #020c8b);
+  background-size: 300% 300%;
+  animation: gradient-background 12s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes gradient-background {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+.In-Top {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+  transform: translate(-50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding: 2rem;
+
+}
+.In-Top-text{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.In-Top-text p{
+  padding: 0;
+}
+/* ********************************************* */
+.first-btn {
+  background-color: #183491;
+  color: white;
+  width: 130px;
+  border: solid 1px #183491;
+}
+
+.third-btn {
+  background-color: #183491;
+  color: white;
+  width: 130px;
+  border: solid 1px #183491;
+}
+
+.second-btn {
+  color: #183491;
+  border: solid 1px #183491;
+}
+
+.icon-freeLancing {
+  width: 115%;
+}
+
+/* ****************** */
+.FreeelanceSchool-Page section {
+  padding-top: 6rem;
+}
+
+.FreeelanceSchool-Page .section-1,
+.FreeelanceSchool-Page .section-2,
+.FreeelanceSchool-Page .section-3,
+.FreeelanceSchool-Page .section-5,
+.FreeelanceSchool-Page .section-7 div:nth-child(2),
+.roww {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.FreeelanceSchool-Page .section-4,
+.FreeelanceSchool-Page .section-7,
+.FreeelanceSchool-Page .section-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.section-4 {
+  align-items: center;
+}
+
+.section-7,
+.section-6,
+.section-5 {
+  margin-top: 10rem;
+}
+
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.deg-title {
+  font-size: 5rem;
+  background: linear-gradient(45deg, #05ebcc,#0493f1, #0493f1, #0661e9,#645bf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-top: 2rem;
+}
+
+.card-FrSchool,
+.FreeelanceSchool-Page .section-8 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.FreeelanceSchool-Page .section-8 form {
+  width: 60%;
+}
+
+.formulaire {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.img_profile {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.checkinput {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
+.partone,
+.parttwo {
+  flex: 1;
+}
+
+
+.card-coach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-coach img {
+  width: 390px;
+  height: auto;
+}
+
+.coach {
+  width: 400px;
+  border-radius: 15px;
+
+
+}
+
+.section-2 {
+  width: auto;
+}
+
+.list-NewCards{
+  display: flex;
+  gap: 6rem;
+}
+
+.NewCard {
+  background: #287bff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  border-radius: 20px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  box-shadow: 0 15px 0 #fff,
+    inset 0 -15px 0 rgba(255, 255, 255, 0.24),
+    0 45px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+
+}
+
+.NewCard::before {
+  content: "";
+  position: absolute;
+  top: -140px;
+  left: -40%;
+  padding: 0;
+  width: 100%;
+  height: 120%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
+  transform: rotate(35deg);
+  pointer-events: none;
+  filter: blur(5px);
+}
+
+.NewCard:nth-child(1) {
+  background: linear-gradient(to bottom, #03b8ff, #645bf6);
+}
+
+.NewCard:nth-child(2) {
+  background: linear-gradient(to bottom, #03b8ff, #645bf6);
+}
+
+.NewCard:nth-child(3) {
+  background: linear-gradient(to bottom, #03b8ff, #645bf6);
+}
+
+.NewCard .icon {
+  position: relative;
+  width: 140px;
+  height: 120px;
+  background: #fff;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0 15px 0 rgba(0, 0, 0, 0.1),
+    inset 0 -8px 0 #fff;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.NewCard .icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px #fff;
+}
+
+.NewCard .icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-left-radius: 50px;
+  box-shadow: -15px -15px 0 15px #fff;
+}
+
+.NewCard .icon ion-icon {
+  color: #fff;
+  position: relative;
+  font-size: 15rem;
+  z-index: 1000;
+  --ionicon-stroke-width: 24px;
+}
+
+
+.NewCard .content {
+  position: absolute;
+  width: 100%;
+  padding: 30px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.NewCard .content h2 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.NewCard .content p {
+  color: #fff;
+  line-height: 1.5em;
+}
+
+/* ************************************* */
+
+.card-wrap {
+  width: 25%;
+  background: #fff;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.card-wrap:hover {
+  transform: scale(1.1);
+}
+
+.card-header-fr {
+  height: 250px;
+  width: 100%;
+  background: #183491;
+  border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+
+}
+
+.card-header-fr i {
+  color: #fff;
+  font-size: 72px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.card-grad {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+
+.card-text {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+/* ************************** */
+.section-10,.row-freelancing{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-select{
+  width: 100%;
+}
+
+/* ************************* */
+.section-11{
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section-11 form{
+  width: 50%;
+}
+
+@media (min-width: 992px) and  (max-width: 1160px){
+  .FreeelanceSchool-Page .section-1,
+  .FreeelanceSchool-Page .section-2,
+  .FreeelanceSchool-Page .section-3,
+  .FreeelanceSchool-Page .section-4,
+  .FreeelanceSchool-Page .section-5,
+  .FreeelanceSchool-Page .section-6,
+  .FreeelanceSchool-Page .section-9,
+  .FreeelanceSchool-Page .section-10,
+  .FreeelanceSchool-Page .section-7 div:nth-child(2),
+  .roww{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-coach{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .list-NewCards{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .card-wrap {
+    
+    width: 20%;
+  }
+  .row-freelancing,.section-10{
+    display: flex;
+    gap: 2rem;
+  }
+
+
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 992px) {
+  .FreeelanceSchool-Page{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+  }
+
+  .FreeelanceSchool-Page .section-1,
+  .FreeelanceSchool-Page .section-2,
+  .FreeelanceSchool-Page .section-3,
+  .FreeelanceSchool-Page .section-4,
+  .FreeelanceSchool-Page .section-5,
+  .FreeelanceSchool-Page .section-6,
+  .FreeelanceSchool-Page .section-7,
+  .FreeelanceSchool-Page .section-8,
+  .FreeelanceSchool-Page .section-9,
+  .FreeelanceSchool-Page .section-10,
+  .FreeelanceSchool-Page .section-7 div:nth-child(2),
+  .roww,.row,.row-freelancing,.list-NewCards{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .row-freelancing,.section-10{
+    text-align: center;
+  }
+  .card-coach{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  .section-11 form{
+    width: 70%;
+  }
+  .Top{
+    height: 140vh;
+  }
+
+  .In-Top{
+    top: 20%;
+    height: auto;
+  }
+  .In-Top-text{
+    align-items: center;
+  }
+  .In-Top h1{
+    font-size: 3rem;
+  }
+  .In-Top p{
+    font-size: 1.2rem;
+  }
+
+  .section-8{
+    padding: 0;
+    width: 100%;
+  }
+  .FreeelanceSchool-Page .section-8 form{
+    width: 100%;
+  }
+
+  .section-11{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-wrap {
+    max-width: 90%;
+    min-width: 50%;
+  }
+  .NewCard{
+    width: 55%;
+    height: 540px;
+  }
+  
+  .deg-title{
+    font-size: 4vh;
+  }
+  .formulaire{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formulaire{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .formulaire .form-control{
+    width: 100%;
+  }
+
+
+  .form-select-resp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .form-select{
+    width: 75%;
+  }
+
+  .row-btns-fre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+  .third-btn{
+    margin-right: 0;
+    margin-left:  0.5rem;
+  }
+ 
+}
+
+@media (max-width: 480px){
+  .FreeelanceSchool-Page{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+
+  }
+
+  .FreeelanceSchool-Page .section-1,
+  .FreeelanceSchool-Page .section-2,
+  .FreeelanceSchool-Page .section-3,
+  .FreeelanceSchool-Page .section-4,
+  .FreeelanceSchool-Page .section-5,
+  .FreeelanceSchool-Page .section-6,
+  .FreeelanceSchool-Page .section-9,
+  .FreeelanceSchool-Page .section-10,
+  .FreeelanceSchool-Page .section-7 div:nth-child(2),
+  .roww,.row,.card-coach,.row-freelancing,.list-NewCards{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+  .list-NewCards{
+    gap: 4rem;
+  }
+  .row-freelancing,.section-10{
+    text-align: center;
+  }
+
+  .Top{
+    height: 140vh;
+  }
+  .section-11 form{
+    width: 80%;
+  }
+  .In-Top{
+    top: 20%;
+    height: auto;
+  }
+  .In-Top-text{
+    align-items: center;
+  }
+  .In-Top h1{
+    font-size: 3rem;
+  }
+  .In-Top p{
+    font-size: 1.2rem;
+  }
+  
+
+  .section-8{
+    padding: 0;
+    width: 100%;
+  }
+  .FreeelanceSchool-Page .section-8 form{
+    width: 100%;
+  }
+
+  .section-11{
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-wrap {
+    width: 100%;
+  }
+  .NewCard{
+    width: 90%;
+  }
+  
+  .deg-title{
+    font-size: 4vh;
+  }
+  .formulaire{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .formulaire .form-control{
+    width: 100%;
+  }
+  .form-select-resp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .form-select{
+    width: 75%;
+  }
+  .row-btns-fre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-btn{
+    margin-right: 0;
+    margin-left:  0.5rem;
+  }
+}
+
+

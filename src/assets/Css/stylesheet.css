@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'vg5000_regularregular';
+    src: url('vg5000-regular_web-webfont.woff2') format('woff2'),
+         url('vg5000-regular_web-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

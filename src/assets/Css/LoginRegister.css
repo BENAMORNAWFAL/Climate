@@ -1,0 +1,238 @@
+.body_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: var(--height--screen);
+    gap: 2px;
+    background-color: #000000be;
+    overflow: hidden;
+    background: url('../Images/logoback.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.body_page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    backdrop-filter: blur(14px);
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+.wrapper.active {
+    height: 770px;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper .form-box.login {
+    transform: translateX(0);
+}
+
+.wrapper.active .form-box.login {
+    transform: translateX(-400px);
+}
+
+.wrapper .form-box.register {
+    position: absolute;
+    transform: translateX(400px);
+    transition: transform .18s ease;
+}
+
+.wrapper.active .form-box.register {
+    transform: translateX(0);
+}
+
+.wrapper form h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-box .lab-inp {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.form-box .lab-inp input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.form-box input::placeholder {
+    color: #fff;
+}
+
+.log_icons {
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 20px 20px 15px;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+}
+
+.remember-forgot a,
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.remember-forgot a:hover,
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.form-box button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+}
+
+form .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+/* ========================background ============================== */
+
+:root {
+    --color1: #34E0C3;
+    --color1-shadow: #148f7a;
+    --color2: #F72E85;
+    --color2-shadow: #a71f5a;
+    --size: 8px;
+}
+
+.bubbles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bubbles span {
+    background: var(--color1);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: 0 0 0 6px var(--color1-shadow), 0 0 50px var(--color1), 0 0 100px var(--color1);
+    animation: animate 40s linear infinite;
+    animation-duration: calc(225s / var(--i));
+    margin: 2px;
+}
+
+.bubbles span:nth-child(even) {
+    background: var(--color2);
+    box-shadow: 0 0 0 6px var(--color2-shadow), 0 0 50px var(--color2), 0 0 100px var(--color2);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .form-box .lab-inp input {
+        font-size: 12px;
+        padding: 15px 35px 15px 15px;
+    }
+
+    .wrapper form h1 {
+        font-size: 24px;
+    }
+
+    .form-box button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .remember-forgot {
+        font-size: 12px;
+    }
+
+    .remember-forgot label {
+        gap: 2px;
+    }
+
+    .remember-forgot a,
+    .register-link a {
+        font-size: 12px;
+    }
+
+    form .register-link {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .log_icons {
+        right: -40%;
+        font-size: 14px;
+    }
+}

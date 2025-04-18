@@ -1,0 +1,252 @@
+.Form_LastPage {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 20rem;
+    background-color: rgba(152, 155, 155, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Form_LastPage>section {
+    margin-top: 20rem;
+
+}
+
+.Form_LastPage h1,
+.Form_LastPage h3 {
+
+    background: linear-gradient(45deg, #fa2775, #fa27b4, #fa27cc, #76408ce0, #74408c, #62408c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Form_LastPage h5,
+.Form_LastPage h6,
+.Form_LastPage h4,
+.Form_LastPage h2 {
+    color: #2B1344;
+    margin: 0 0;
+}
+
+.Form_LastPage p {
+    color: #455a64;
+    margin: 0 0;
+}
+
+
+.section-bg-LastForm {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #fa2775, #fa27b4, #fa27cc, #76408ce0, #74408c, #62408c, #5a12a7);
+    background-size: 300% 300%;
+    animation: Color-form 12s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+@keyframes Color-form {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+
+
+.section-bg-LastForm-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-bg-LastForm-text h1 {
+    font-size: 8vh;
+}
+
+.section-bg-LastForm-text p {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.first-btn-lastpage {
+    background-color: #fa2775;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.second-btn-lastpage {
+    background-color: #5a12a7;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.third-btn-lastpage {
+    background-color: #00000054;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.first-btn-lastpage:hover {
+    background-color: #fa277454;
+    color: #fff;
+}
+
+.second-btn-lastpage:hover {
+    background-color: #5a12a73d;
+    color: #fff;
+}
+
+/* *************************************** */
+
+.Form_LastForm {
+    width: 50%;
+}
+
+.row-form-lastform {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+/* ************************************** */
+.form-container {
+    width: 100%;
+}
+
+.row-form-lastform-two{
+    width: 100%;
+}
+
+/* ****************************** */
+.image_profile {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.Form_LastPage .width-select {
+    width: 70%;
+}
+
+.flex-profile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.align-rate{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .section-bg-LastForm-text h1 {
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    .section-bg-LastForm-text p {
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    .Form_LastPage {
+        align-items: center;
+        text-align: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .align-rate{
+        align-items: center;
+    }
+
+    .Form_LastForm {
+        width: 70%;
+    }
+
+    .row-form-lastform {
+        flex-direction: column;
+        width: 70%;
+    }
+    .row-form-lastform-two{
+        width: 70%;
+    }
+
+    .select-lastform {
+        width: 100%;
+    }
+
+    .Form_LastPage .width-select {
+        font-size: 2vh;
+    }
+
+    
+}
+
+
+@media (max-width: 480px) {
+    .section-bg-LastForm-text h1 {
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .section-bg-LastForm-text p {
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .Form_LastPage {
+        align-items: center;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .Form_LastForm {
+        width: 100%;
+    }
+
+    .align-rate{
+        align-items: center;
+    }
+
+    .row-form-lastform {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row-form-lastform-two{
+        width: 100%;
+    }
+
+    .select-lastform {
+        width: 100%;
+    }
+
+    .Form_LastPage .width-select {
+        font-size: 2vh;
+    }
+
+}

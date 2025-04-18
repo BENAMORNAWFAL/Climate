@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    right: 1rem;
+    padding: 1rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+    z-index: 10;
+    color: '--navbar-text-color';
+}
+
+.nav-link {
+    margin-right: 2rem;
+
+}
+
+.nav-link:hover {
+    color: var(--color-text);
+    text-shadow: 0 0 15px var(--color-text);
+}
+
+
+
+
+.logo {
+    position: absolute;
+    left:0;
+    background-color: #fff;
+    border-radius: 100px;
+    height: 3rem;
+    width: auto;
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.navbar-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 9rem;
+    height: 3rem;
+}
+
+
+.list-nav {
+    position: absolute;
+    left: 10.7rem;
+    height: 3rem;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: baseline;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+.curved-shape {
+    position: relative;
+    top: -0.7rem;
+    left: 8.7rem;
+    width: 22px;
+    height: 24px;
+    background: radial-gradient(circle at top, rgba(10, 10, 10, 0) 14px, white 45%);
+    overflow: hidden;
+}
+.curved-shape-two {
+    position: relative;
+    top: 0.7rem;
+    left:7.3rem;
+    width: 22px;
+    height: 23px;
+    background: radial-gradient(circle at bottom, rgba(10, 10, 10, 0) 14px, white 45%);
+    overflow: hidden;
+}
+
+.buttons-navbar {
+    position: absolute;
+    right: 0rem;
+    width: auto;
+    padding: 5px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+:root {
+    --color-text: black
+}
+
+.navlink {
+    color: var(--color-text);
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.serv{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.navlink.active .navlink:active,
+.navlink:focus,
+.navlink:hover {
+    color: var(--color-text);
+}
+
+.signup_Button {
+
+    background-color: var(--color-text);
+    color: #fff;
+    width: 110px;
+    border: solid 1px var(--color-text);
+    border-radius: 100px;
+}
+
+.signup_Button:hover {
+    color: var(--color-text);
+    width: 110px;
+    border-radius: 100px;
+}
+
+
+.apply_button {
+
+    border: solid 2px var(--color-text);
+    color: var(--color-text);
+    border-radius: 100px;
+    width: 100px;
+}
+
+.apply_button :hover {
+    border: none;
+    color: var(--color-text);
+    border-radius: 100px;
+    width: 100px;
+}
+
+
+
+.navbar-text {
+    color: #432d6c;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.position-fixed-2 {
+    width: 80%;
+    position: fixed;
+    top: 6.3rem;
+    left: 6rem;
+    padding: 1rem;
+    z-index: 10;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.37);
+
+}
+
+
+.position-fixed-2 p {
+    font-size: 1rem;
+}
+
+.card {
+
+    width: 25%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.card-body-nav {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 2;
+
+}
+
+.card-body p {
+
+    padding: 0;
+}
+
+.position-fixed-2 {
+    display: none;
+
+}
+
+.curved-shape::before {
+    top: -50%;
+    border-bottom: none;
+}
+
+.curved-shape::after {
+    bottom: -50%;
+    border-top: none;
+    transform: rotate(180deg);
+    background-color: #000;
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 992px) {
+    
+    .dropdown{
+        width: auto;
+        
+    }
+    .dropdown-toggle{
+        margin: 0;
+        padding: 0;
+    }
+    .resp-navbar-logo{
+        width: 2.5rem;
+        position: relative;
+        left: 0.5rem;
+        
+    }
+    .logo{
+        height: auto;
+        width: auto;
+        padding: 0.5rem;
+    
+    }
+    
+    .list-nav .dropdown-menu{
+        position: fixed;
+        display: grid;
+        border-radius: 10px;
+        margin-top: 1rem;
+        left: 2rem;
+    }
+    #dropbtn{
+        color: var(--color-text);
+        width: 130px;
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: x-large;
+        font-weight: bold;
+        border: none;
+        margin:0.5rem ;
+        margin: auto;
+        margin-left: 2rem;
+    }
+    .list-nav{
+        position: fixed;
+        top: 1.5rem;
+        left: 7.3rem;
+        padding:0.5rem;
+        width:170px;
+    }
+
+    .navlink {
+        color: var(--color-text);
+        font-size: 19px;
+        font-weight: bold;
+    
+    }
+
+
+    .signup_Button,.apply_button{
+        border-radius: 5px;
+        width: 150px;
+    }
+    .drop-sign-app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+    .curved-shape{
+        
+        left:3.3rem;
+    }
+
+    .curved-shape-two {
+        position: fixed;
+        top: 3rem;
+        left:6.3rem;
+        width: 22px;
+        height: 23px;         
+        background: radial-gradient(circle at bottom, rgba(10, 10, 10, 0) 14px, white 45%);
+        overflow: hidden;
+    }
+
+}

@@ -1,0 +1,339 @@
+.form_page {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 20rem;
+    background-color: rgba(152, 155, 155, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form_page>section {
+    margin-top: 20rem;
+
+}
+
+.form_page h1 {
+
+    background: linear-gradient(45deg, #60418D, #60418D, #621656, #621656, #621656, #621656);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.form_page h5,
+.form_page h6,
+.form_page h4,
+.form_page h3,
+.form_page h2 {
+    color: #2B1344;
+    margin: 0 0;
+}
+
+.form_page p {
+    color: #455a64;
+    margin: 0 0;
+}
+
+
+.form_top_page {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #5f418d79, #5f418da4, #5f418dd0, #621657bd, #621657e7, #621656);
+    background-size: 300% 300%;
+    animation: Color-form 12s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+@keyframes Color-form {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+
+
+.bg-form-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-form-text h1 {
+    font-size: 8vh;
+}
+
+.bg-form-text p {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.first-btn-form {
+    background:linear-gradient(45deg,#5f418d, #5f418d, #5f418df3, #621657f5, #621656);
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.second-btn-form {
+
+    background-color: #00000054;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.third-btn-form{
+    background-color: #00000054;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.first-btn-form:hover {
+    background: linear-gradient(45deg, #60418D, #60418D, #621656, #621656, #621656, #621656);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.second-btn-form:hover {
+    background-color: #2b13447c;
+    color: #fff;
+    transform: scale(1.1);
+}
+.third-btn-form:hover {
+    background-color: #2b13447c;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ************************** */
+.form_image{
+    width: 100%;
+}
+
+.form_page .form-control{
+    width: 50%;
+}
+
+.form_formpage{
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_formpage .flex-1{
+    padding: 0;
+}
+.check-formpage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-form-formpage{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+/* ********************** */
+.section-bg-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: auto;
+    padding: 20vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: #00000036;
+}
+
+.section-bg-Form-text h1{
+    background: linear-gradient(45deg, #fff, #fff, #621656, #621656, #fff,#fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.section-bg-Form-text p{
+    background: linear-gradient(45deg, #fff, #fff,#fff,#fff, #621656, #621656, #fff,#fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2vh;
+    font-weight: 500;
+    color: transparent;
+}
+
+.items-baseline{
+    align-items: baseline;
+}
+
+
+
+
+@media (min-width: 480px) and (max-width:992px) {
+    .bg-form-text{
+        align-items: center;
+        text-align: center;
+    }
+    .bg-form-text h1{
+        font-size: 8vh;
+    }
+
+    .bg-form-text p{
+        font-size: 3vh;
+    }
+
+    .form_page {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+    .items-baseline{
+        align-items: center;
+    }
+    
+    .form_page .form-control{
+        width: 60%;
+    }
+
+    .form_formpage{
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .row-form-formpage{
+        flex-direction: column;
+    }
+
+    .check-formpage{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row-form-formpage{
+        flex-direction: row;
+        width: 100%;   
+    }
+
+    .section-bg-Form{
+        padding: 2vh;
+    }
+
+    .section-bg-Form-text h1{
+        background: linear-gradient(45deg, #fff, #fff, #fff,#fff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .section-bg-Form-text p{
+        background: linear-gradient(45deg, #fff, #fff, #fff,#fff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .section-bg-Form-text span{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 480px){
+    .bg-form-text{
+        align-items: center;
+        text-align: center;
+    }
+    .bg-form-text h1{
+        font-size: 6vh;
+    }
+
+    .bg-form-text p{
+        font-size: 3vh;
+    }
+
+    .form_page {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .form_page .form-control{
+        width: 90%;
+    }
+
+    .form_formpage{
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .row-form-formpage{
+        flex-direction: column;
+    }
+
+    .check-formpage{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row-form-formpage{
+        flex-direction: row;
+        width: 100%;   
+    }
+
+    .section-bg-Form{
+        padding: 2vh;
+    }
+
+    .section-bg-Form-text h1{
+        background: linear-gradient(45deg, #fff, #fff, #fff,#fff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .section-bg-Form-text p{
+        background: linear-gradient(45deg, #fff, #fff, #fff,#fff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+}

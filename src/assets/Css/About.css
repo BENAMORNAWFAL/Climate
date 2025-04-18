@@ -1,0 +1,528 @@
+.About-Page {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgba(152, 155, 155, 0.171);
+}
+
+.About-Page>section:nth-child(1) {
+  padding-top: 6rem;
+}
+
+.About-Page section:nth-child(3),
+.About-Page  section:nth-child(4),
+.About-Page  section:nth-child(5),
+.About-Page  section:nth-child(6) {
+  margin-top: 10rem;
+}
+
+section:nth-child(5) {
+  padding-bottom: 10rem;
+}
+
+.About-Page p {
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.About-Page h1,
+.About-Page h2,
+.About-Page h3,
+.About-Page h4,
+.About-Page h5,
+.About-Page h6 {
+  color: #2B1344;
+
+}
+
+.First-btn-About {
+  color: #fff;
+  background-color: #2B1344;
+  width: 150px;
+}
+
+.First-btn-About:hover {
+  color: #2B1344;
+  font-weight: bold;
+}
+
+.Second-btn-About {
+  color: #2B1344;
+  border: solid 1px #2B1344;
+  width: 150px;
+}
+
+.Second-btn-About:hover {
+  color: #2B1344;
+  font-weight: bold;
+  width: 150px;
+}
+
+/* =========================sections===================== */
+
+.Top-About {
+
+  width: 100%;
+  height: 110vh;
+  background: linear-gradient(45deg, #8400ff, #5b00bb, #41097c, #351755, #2B1344);
+  background-size: 300% 300%;
+  animation: Color-About 12s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+
+
+
+}
+
+@keyframes Color-About {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+.text-About {
+
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  transform: translate(-50%);
+  color: white;
+  
+  font-weight: normal;
+  font-size: xx-large;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text-About h1 {
+  position: relative;
+  top: 25%;
+  color: transparent;
+  font-size: 3.3rem;
+}
+
+.text-About p {
+  position: relative;
+  top: 25%;
+  color: transparent;
+
+  font-size: 1.6rem;
+
+}
+
+.text-About h1::before,
+.text-About p::before {
+  content: attr(data-text-one);
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+  animation: title-animation 2s linear 1;
+  filter: drop-shadow(0 0 20px #fff);
+  line-height: normal;
+}
+
+.text-About p:nth-child(2):before {
+  content: attr(data-text-two);
+  animation: title-animation-two 2s linear 1;
+  animation-delay: 2s;
+  overflow: hidden;
+  line-height: normal;
+}
+
+.text-About p:nth-child(3):before {
+  content: attr(data-text-three);
+  animation: title-animation-three 2s linear 1;
+  animation-delay: 4s;
+  overflow: hidden;
+  line-height: normal;
+}
+
+@keyframes title-animation {
+
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes title-animation-two {
+
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes title-animation-three {
+
+  0%,
+  10% {
+    width: 0;
+  }
+
+  90%,
+  100% {
+    width: 100%;
+  }
+}
+
+/* ************************ */
+.Placeholder {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.image-about {
+  width: 100%;
+  height: auto;
+}
+
+/* ************ CARD ************* */
+.Team-Contacts {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-team {
+  position: relative;
+  height: 460px;
+  width: 360px;
+  background-color: #fff;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-card {
+  position: absolute;
+  height: 220px;
+  width: 95%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 12px;
+  border-bottom-left-radius: -100%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to right, #371a57, #2B1344);
+}
+
+.header-card img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.header-card h2 {
+  font-family: 'vg5000_regularregular';
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+
+.header-card h4 {
+  font-family: 'vg5000_regularregular';
+  color: rgb(236, 233, 233);
+  text-align: center;
+}
+
+.body-card {
+  position: absolute;
+  height: 126px;
+  left: 5px;
+  right: 5px;
+  top: 46%;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+/*footer card*/
+
+.footer-card {
+  position: absolute;
+  height: 80px;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  border-radius: 12px;
+  border-top-left-radius: 150px;
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to right, #371a57, #2B1344);
+  align-content: center;
+
+}
+
+.footer-card ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 0;
+}
+
+.footer-card ul li {
+  display: inline-block;
+}
+
+.footer-card ul li i {
+  font-size: 30px;
+  color: #fff;
+  transition: all .3s ease-in;
+}
+
+.footer-card ul li:hover {
+  transform: scale(1.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+.Bottom-team-contact {
+  text-align: center;
+}
+
+
+/* ******************** */
+
+.About-Certifications {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* ****************** */
+
+.section-bg-claim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  background-image: linear-gradient(50deg, #68359e, #512383, #361855);
+}
+
+.section-bg-claim h1 {
+  padding-top: 1em;
+  color: #fff;
+}
+
+.section-bg-claim-input {
+  height: 35px;
+  border-radius: 5px;
+  border: solid 0.5px #fff;
+}
+
+.input-About {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* ************* */
+
+.Join-About {
+  display: flex;
+  gap: 4rem;
+  padding: 1rem;
+}
+
+
+@media (min-width: 993px) and (max-width: 1160px) {
+  
+
+  .text-About h1 {
+    font-size: 140%;
+  }
+  .text-About p {
+    font-size: 70%;
+  }
+  #title-About {
+    margin: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 992px)  {
+  .About-Page{
+    margin: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  
+  .Top-About {
+    width: 100%;
+  }
+
+  .text-About {
+    top: 35%;
+    width: 90%;
+    height: auto;
+    
+  }
+ 
+  .text-About h1 {
+    font-size: 63%;
+  }
+
+  .text-About p {
+    font-size: 35%;
+  }
+
+  .Placeholder,
+  .Team-Contacts,
+  .About-Certifications,
+  .Team-Top,
+  .Join-About,
+  .input-About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+ 
+  .About-Page>section:nth-child(1) {
+    padding-top: 6rem;
+  }
+
+  .About-Page>
+  section:nth-child(3),
+  section:nth-child(4),
+  section:nth-child(5),
+  section:nth-child(6) {
+    margin-top: 10rem;
+  }
+
+  section:nth-child(5) {
+    padding-bottom: 10rem;
+  }
+
+  .section-bg-claim {
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .image-about {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-team {
+    height: 460px;
+    width: 50vh;
+
+  }
+  
+}
+
+@media (max-width: 480px) {
+  
+  .About-Page{
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  
+  .Top-About {
+    width: 100%;
+  }
+
+  .text-About {
+    top: 35%;
+    width: 90%;
+    height: auto;
+    
+  }
+ 
+  .text-About h1 {
+    font-size: 45%;
+    font-weight: bolder;
+  }
+
+  .text-About p {
+    font-size: 24%;
+  }
+
+  .Placeholder,
+  .Team-Contacts,
+  .About-Certifications,
+  .Team-Top,
+  .Join-About,
+  .input-About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .About-Page section:nth-child(1) {
+    padding-top: 6rem;
+  }
+
+  .About-Page section:nth-child(2),
+  .About-Page section:nth-child(3),
+  .About-Page section:nth-child(4),
+  .About-Page section:nth-child(5),
+  .About-Page section:nth-child(6) {
+    margin-top: 10rem;
+  }
+
+  .About-Page section:nth-child(5) {
+    padding-bottom: 10rem;
+  }
+
+  .section-bg-claim {
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+  }
+
+  .image-about {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-team {
+    height: 460px;
+    width: 100%;
+
+  }
+
+}

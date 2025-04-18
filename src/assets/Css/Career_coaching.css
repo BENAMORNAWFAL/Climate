@@ -1,0 +1,638 @@
+
+
+.main-CareerCoaching {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+
+
+}
+
+.main-CareerCoaching p{
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Page-CareerCoaching{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 6rem;
+    background-color: rgba(152, 155, 155, 0.171);
+}
+.Page-CareerCoaching a{
+    width: 140px;
+}
+
+.Page-CareerCoaching section{
+    margin-top: 15rem;
+    margin-bottom: 0;
+}
+
+.top-CareerCoaching {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #fb5b45, #f7207b, #f52075, #f500d4, #943c77, #623f8d);
+    background-size: 300% 300%;
+    animation: color-bg 12s ease-in-out infinite;
+    display: flex;
+    color: white;
+    padding: 0 4rem 0 4rem;
+}
+
+@keyframes color-bg {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+.top-CareerCoaching p {
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+.top-txt {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 1rem;
+    transform: translate(-50%);
+    color: rgb(255, 255, 255);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.buttons {
+    margin-left: 1rem;
+}
+
+
+.btn-career{
+    width: 130px;
+    margin-right:1rem; 
+}
+
+/* ***************************************** */
+.Page-CareerCoaching {
+    padding-top: 8rem;
+    
+}
+
+.Page-CareerCoaching p {
+    color: rgb(69 90 100);
+    padding: 0;
+}
+
+
+.Page-CareerCoaching h5,
+.Page-CareerCoaching h4 {
+    color: #F72E85;
+}
+/* ********************************* */
+.FirstSection{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+/* ********************************** */
+.four-section{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 6rem;
+}
+
+/* ********************************** */
+
+.SecondSection{
+    position: relative;
+    top: 8rem;
+    width: 100%;
+    height: 600px;
+    /* overflow: hidden; */
+
+}
+.under-secondsection {
+    position: absolute;
+    width: 35%;
+    height: 350px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(40% - 110px);
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    box-shadow: -0px 0px 7px #F72E85,0 0px 16px #F72E85;
+
+    
+}
+
+#nextCareerCoaching,
+#prevCareerCoaching {
+    position: absolute;
+    top: 40%;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 50px;
+}
+
+#nextCareerCoaching {
+    left: unset;
+    right: 50px;
+}
+
+/* ************************************* */
+.ThirdSection {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ********************************** */
+
+.Section-Five{
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.Five-Two{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border-radius: 15px;
+    width: 400px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 70%;
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.career-coaching_icon {
+    width: 15%;
+}
+
+
+/* ********************************* */
+.section-seven {
+    margin-top: 15rem;
+    height: 60vh;
+    width: 100%;
+    
+}
+
+
+.section-seven-text {
+    
+    background-color: rgba(3, 3, 3, 0.397);
+    color: white;
+    padding: 3rem;
+    align-content: center;
+
+     display: flex; 
+     flex-direction: column; 
+     align-content: center; 
+     align-items: center; 
+     justify-content: center;
+     gap: 2rem; 
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-seven-text h1{
+
+    font-size: 4rem;
+    background: linear-gradient(45deg, #f7207a9f, #f52075bd,#f52075d3,#f52075ea,rgb(247,46,133) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.btn-seven{
+    background: linear-gradient(45deg, #f7207a9f, #f52075bd,#f52075d3,#f52075ea,rgb(247,46,133) );
+    color: #f1f1f1;
+    width: 150px;
+}
+
+.btn-seven-2{
+    color: rgb(69 90 100);
+    width: 150px;
+    border: solid 1px rgb(69 90 100) ;
+}
+.section-seven-text p{
+    color: rgb(69 90 100);
+    font-size: 1.5rem;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+/* ************************************** */
+.eighth-section{
+    margin-top: 15rem;
+    margin-bottom: 6rem;
+    
+    display: flex;
+    gap: 4rem;
+}
+.eighth-section-one{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.btn-eighth{
+    background-color: rgb(69 90 100);
+    color: #f1f1f1;
+    width: 150px;
+}
+
+.eighth-section-two{
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.row-career{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+
+
+@media (min-width:481px) and (max-width: 992px){
+    .row-career{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .btn-career{   
+        margin:auto;
+    }
+    html{
+        padding: 0;
+        margin: 0;
+    }
+    .main-CareerCoaching{
+        width: 100%;
+
+    }
+
+    .Page-CareerCoaching{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 6rem;
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .top-CareerCoaching{
+       height: 130vh;
+    }
+    .FirstSection,  .FirstPartOne,
+    .ThirdSection,.four-section,
+    .Section-Five,.section-6,
+    .section-seven,.eighth-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .four-section-partone{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .eighth-section{
+        margin-bottom: 6rem;
+    }
+    .top-txt{
+        height: auto;
+    }
+    .top-txt h1{
+        font-size: 3rem;
+        
+    }
+    .top-txt p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-CareerCoaching a{
+        width: 150px;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+        width: 70%;
+        min-height: 630px ;
+        
+    }
+    .card-img-top{
+        height: auto;
+        
+    }
+    .card-text{
+        font-size: large;
+    }
+
+    .eighth-section-two{
+        width: 90%;
+        padding: 0;
+        
+    }
+    .toview{
+        width: 150px;
+        height: 40px;
+    }
+
+    .btnDesc{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .Section-Five a{
+        width: 150px;
+    }
+
+    .SecondSection{
+        width: 80%;
+        overflow: hidden;
+    }
+    .under-secondsection {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        text-align: justify;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.5s;
+        left: calc(19%);
+        top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    
+        
+    }
+    
+    #nextCareerCoaching {
+        left: unset;
+        right: -35px;
+    }
+    #prevCareerCoaching{
+        left: -35px;
+        right: unset;
+    }
+    .section-seven-text{
+        height: auto;
+        padding: 1rem;
+    }
+    .section-seven-text h1{
+        font-size:250%;
+        line-height: normal;
+    }
+}
+
+
+
+@media  (max-width: 480px) {
+    .row-career{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .btn-career{   
+        margin:auto;
+    }
+    html{
+        padding: 0;
+        margin: 0;
+    }
+    .main-CareerCoaching{
+        width: 100%;
+
+    }
+
+    .Page-CareerCoaching{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 6rem;
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .top-CareerCoaching{
+       height: 150vh;
+    }
+    .FirstSection,  .FirstPartOne,
+    .ThirdSection,.four-section,
+    .Section-Five,.section-6,
+    .section-seven,.eighth-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .four-section-partone{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .eighth-section{
+        margin-bottom: 6rem;
+    }
+    .top-txt{
+        top: 12%;
+        width: 90%;
+        height: auto;
+    }
+    .top-txt h1{
+        font-size: 30px;
+    }
+    .top-txt p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-CareerCoaching a{
+        width: 150px;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+        width: 90%;
+        min-height: 600px ;
+        
+    }
+    .card-img-top{
+        height: auto;
+        width: 90%;
+        
+    }
+    .card-text{
+        font-size: large;
+    }
+
+    .eighth-section-two{
+        width: 90%;
+        padding: 0;
+        
+    }
+    .toview{
+        width: 150px;
+        height: 40px;
+    }
+
+    .btnDesc{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .Section-Five a{
+        width: 150px;
+    }
+
+    .SecondSection{
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .under-secondsection {
+        position: absolute;
+        width: 70%;
+        height: auto;
+        text-align: justify;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.5s;
+        left: calc(15%);
+        top: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    
+        
+    }
+    
+    #nextCareerCoaching {
+        left: unset;
+        right: -45px;
+    }
+    #prevCareerCoaching{
+        left: -45px;
+        right: unset;
+    }
+    .section-seven-text{
+        height: auto;
+        padding: 1rem;
+    }
+    .section-seven-text h1{
+        font-size:250%;
+        line-height: normal;
+    }
+}
+

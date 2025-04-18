@@ -1,0 +1,306 @@
+.Climate-HR-Page {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: rgba(152, 155, 155, 0.171);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Climate-HR-Page #section8{
+  margin-bottom: 10rem;
+}
+
+.Climate-HR-Page h1,
+.Climate-HR-Page h2,
+.Climate-HR-Page h3,
+.Climate-HR-Page h4,
+.Climate-HR-Page h6 {
+  color: #DF2639;
+}
+
+.Climate-HR-Page p{
+  color: #37474f;
+}
+
+.Top_Climate_HR_Page {
+  width: 100%;
+  height: 110vh;
+  background: linear-gradient(45deg, #f86f5d, #ff6473, #ff4c5e, #ff2d42, #ff1b32, #ff011a);
+  background-size: 300% 300%;
+  animation: color-bg 12s ease-in-out infinite;
+  display: flex;
+  color: white;
+  padding: 0 4rem 0 4rem;
+}
+
+.Climate_HR_Page_bg_txt {
+  width: auto;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.Climate_HR_Page_bg_txt h1{
+  font-size: 8vh;
+}
+.Climate_HR_Page_bg_txt p{
+  font-size: 4vh;
+}
+
+.first-btn-climate-hr{
+  background-color: #DF2639;
+  color: #fff;
+  width: 130px;
+  margin: 0;
+}
+.first-btn-climate-hr:hover{
+  border:solid 1px #DF2639;
+  color: #DF2639;
+}
+
+.second-btn-climate-hr{
+  border:solid 1px #fff;
+  color: #fff;
+  width: 130px;
+  margin: 0;
+}
+.second-btn-climate-hr:hover{
+  border:solid 1px #DF2639;
+  color: #DF2639;
+}
+
+.third-btn-climate-hr{
+  border:solid 1px #DF2639;
+  color: #DF2639;
+  width: 130px;
+  margin: 0;
+}
+.third-btn-climate-hr:hover{
+  border: none;
+  color: #DF2639;
+}
+
+/* ************************************ */
+.Climate-HR-Page{
+  padding-top: 10rem;
+}
+.Climate-HR-Page section{
+  padding-top: 10rem;
+}
+
+.cube_icon{
+  width: 15%;
+}
+
+/* ********************************** */
+
+.select-hover:hover {
+  padding-left: 1rem;
+  box-shadow: -5px 0 0px #e47883;
+}
+
+/* ******************************** */
+.card-climate-hr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-body-toggle{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+  rgba(0, 0, 0, 0.23) 0px 6px 6px ;
+  width: 20rem;
+  height: 430px;
+}
+
+.card-toggle-header{
+  padding: 0.5rem;
+  border-bottom: solid 1px #DF2639;
+}
+
+.Toggle-first-element{
+  background-color: #DF2639;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #fff;
+  margin: 0;
+  width: 130px;
+}
+
+.btn.active{
+  color: #DF2639;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0;
+  background-color: #fff;
+}
+
+.Toggle-second-element{
+  background-color: #DF2639;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #fff;
+  margin: 0;
+  width: 130px;
+}
+.list {
+  list-style: none;
+
+}
+
+.list>li::before {
+  content: "✔";
+  margin-right: 5px;
+
+}
+
+/* ****************************** */
+.climate-hr-rating{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+
+
+/* ******************************* */
+
+.get-start-btn{
+  background-color: #DF2639;
+  color: #fff;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+/* ************************* */
+
+.which-best{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+  
+  .Climate-HR-Page{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+  }
+  
+  .Climate_HR_Page_bg_txt{
+    padding: 1rem;
+    height: 70vh;
+    margin-bottom: 2rem;
+  }
+
+  .Climate_HR_Page_bg_txt h1{
+    font-size: 6vh;
+  }
+
+  .col-icons{
+    align-items: center;
+  }
+
+  .card-climate-hr{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-climate-hr .card-body{
+    text-align:start;
+  }
+
+  .climate-hr-rating{
+    width: 100%;
+  }
+
+  .list-group-numbered {
+    padding: 0;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .Climate-HR-Page{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+  }
+  
+  .Climate_HR_Page_bg_txt{
+    padding: 1rem;
+    height: 75vh;
+    margin-bottom: 2rem;
+  }
+
+  .Climate_HR_Page_bg_txt h1{
+    font-size: 4vh;
+  }
+  .Climate_HR_Page_bg_txt p{
+    font-size: 3vh;
+  }
+
+  .col-icons{
+    align-items: center;
+  }
+  .card-body-toggle{
+    width: 100%;
+    height: auto;
+  }
+  .card-climate-hr{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-climate-hr .card-body{
+    text-align:start;
+  }
+
+  .climate-hr-rating{
+    width: 100%;
+  }
+
+  .Toggle-first-element,.Toggle-second-element{
+    width: auto;
+  }
+
+  .which-best{
+    width: 100%;
+  }
+
+  .list-group-numbered {
+    padding: 0;
+  }
+
+}
+  
+
+  

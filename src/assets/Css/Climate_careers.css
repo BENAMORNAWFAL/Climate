@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+
+
+.Climate_careers {
+    padding: 4rem 4rem 0;
+    background-color: rgba(152, 155, 155, 0.171);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Climate_careers .btn{
+    margin: 0;
+}
+
+.Climate_careers section {
+    margin-top: 15rem;
+}
+
+.Climate_careers h1 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.Climate_careers h2 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.Climate_careers h4 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.Climate_careers h5 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.Climate_careers h6 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.Climate_careers p {
+    padding: 0;
+    color: #37474f;
+}
+
+/* **************************** */
+.Potential {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #DF2639, #df2645, #FF9F14, #FF9F14, #FF9F14);
+    background-size: 300% 300%;
+    animation: bg-Climate-Careers 12s ease-in-out infinite;
+    padding: 4rem 4rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@keyframes bg-Climate-Careers {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+.Potential-bg-text{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Potential h2 {
+    font-size: 10vh;
+    color: #fff;
+}
+
+.Potential p {
+    font-size: 3vh;
+    color: #fff;
+    padding: 0;
+}
+.First-btn-Top{
+    background-color: #DF2639;
+    color: #fff;
+    width: 130px;
+}
+.Second-btn-Top{
+    border:solid 1px #fff;
+    color: #fff;
+    width: 130px;
+}
+.First-btn-Top:hover{
+    
+    color: #fff;
+    width: 130px;
+}
+.Second-btn-Top:hover{
+    
+    color: #fff;
+    width: 130px;
+}
+/* **************************** */
+.Descover-Careers {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.image_select {
+    width: 100%;
+
+}
+
+.selection:hover {
+    padding-left: 1rem;
+    box-shadow: -5px 0 0px #b26f0e;
+}
+
+/* ****************** */
+.opportunities-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.opportunity {
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.opportunity-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.First-btn-careers {
+    background-color: #b26f0e;
+    color: #fff;
+    width: 130px;
+}
+
+.First-btn-careers:hover {
+    color: #b26f0e;
+    background-color: transparent;
+}
+
+.Second-btn-careers {
+    background-color: transparent;
+    color: #b26f0e;
+    width: 130px;
+}
+
+.Second-btn-careers:hover {
+    background-color: #b26f0e;
+    color: #fff;
+}
+
+/* *************************** */
+.Careers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.Careers-section h1 {
+    background: linear-gradient(45deg, #DF2639, #df263f, #df2654, #df7f26, #FF9F14, #FF9F14);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.Third-btn-careers {
+    border: solid 1px #b26f0e;
+    color: #b26f0e;
+    width: 130px;
+}
+
+.Third-btn-careers:hover {
+    border: solid 1px #b26f0e;
+    background-color: #b26f0e;
+    color: #fff;
+}
+
+/* *************************/
+.icons {
+    width: 60px;
+    height: 60px;
+}
+/* *********************** */
+.freelance-opportunities-section {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.freelance-opportunity {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* ********************************* */
+
+.card-Training {
+    width: 30%;
+    background: #fff;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card-Training:hover {
+    transform: scale(1.1);
+}
+
+.card-header-Training {
+    width: 100%;
+    background: #ffd9a1;
+    border-radius: 100% 0% 100% 0% / 0% 50% 50% 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+.card-Training-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1rem;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.courses-img {
+    width: 70%;
+    height: 80%;
+}
+
+.category {
+    padding-left: 0rem;
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    gap: 1rem;
+    margin: 0px;
+}
+
+.category h6 {
+    color: #000;
+}
+
+.category h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.category p {
+    font-size: 0.7rem;
+    color: #666666;
+}
+
+.link-courses {
+    color: black;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}
+
+.link-courses:hover {
+    text-shadow: 2px 2px 5px #b26f0e;
+}
+
+/* *********************** */
+
+.Rate-Careers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.Rate-Careers-section h5 {
+    background: linear-gradient(45deg, #DF2639, #df263f, #df2654, #df7f26, #FF9F14, #FF9F14);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+
+/* *********************************** */
+
+.Next-Step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Under-Next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* ********************************* */
+
+.answers-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-selection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.colored-select {
+    width: 60%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ff9d144f;
+}
+
+/* ******************************** */
+
+.Trust-section {
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.image-next{
+    width: 60%;
+}
+/* ********************************** */
+.opportinities {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.Careers-section {
+    margin-top: 3rem;
+    text-align: center;
+    align-content: center;
+}
+
+
+.training-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.Training-courses {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses {
+    width: 30%;
+    height: 70vh;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.courses:hover {
+    box-shadow: -12px 0px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.climate-img {
+    width: 12%;
+}
+
+.profil-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.get-in-touch-section {
+    margin: 0 auto;
+    width: 60%;
+    align-content: center;
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+
+.get-in-touch-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content-input,
+.form-content-texterea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-content-texterea {
+    height: 10rem;
+}
+
+.bottom-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+@media (min-width: 993px) and (max-width: 1160px) {
+    .Potential{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .Potential h2{
+        font-size: 6vh;
+    }
+    .Potential p{
+        font-size: 3vh;
+    }
+    .First-btn-Top{
+        width: 130px;
+        margin: 0 0;
+    }
+    .Second-btn-Top{
+        width: 130px;
+        margin: 0 0;
+    }
+
+    .Descover-Careers,.opportunities-section,
+    .opportinities,.freelance-opportunities-section
+    ,.training-section,.training,.Training-courses
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .freelance-opportunity,.freelance-opportunity-content,
+    .card-Training,.get-in-touch-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .get-in-touch-form{
+        width: 100%;
+    }
+
+    .Under-Next{
+        text-align: center;
+    }
+
+    .image-next{
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px){
+
+    .Climate_careers{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .Potential{
+        height: auto;
+    }
+
+    .Potential-bg-text{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;   
+    }
+
+    .Potential-bg-text h2{
+        font-size: 5vh;
+        
+    }
+    
+    .Potential-bg-text p{
+        font-size: 3vh;
+    }
+
+    .Under-Next{
+        text-align: center;
+    }
+
+    
+    .Descover-Careers,
+    .opportunities-section,.opportinities,
+    .freelance-opportunities-section,
+    .freelance-opportunity,
+    .Training-courses,
+    .get-in-touch-section,
+    .training-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-Training{
+        width: 380px;
+    }
+    
+
+
+    .Rate-Careers-section h5{
+        font-size: 2vh;
+    }
+
+    .climate-img{
+        width: 15vh;
+    }
+
+    .image-next{
+        width: 80%;
+    }
+
+    .colored-select {
+        width: 70%;}
+    
+}
+
+@media (max-width: 480px){
+
+    .Climate_careers{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .Potential{
+        height: 150vh;
+    }
+
+    .Potential-bg-text{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;   
+    }
+
+    .Potential-bg-text h2{
+        font-size: 4vh;
+        
+    }
+
+    .Under-Next{
+        text-align: center;
+    }
+
+    
+    .Potential-bg-text p{
+        font-size: 2vh;
+    }
+    
+    .Descover-Careers,
+    .opportunities-section,.opportinities,
+    .freelance-opportunities-section,
+    .freelance-opportunity,
+    .Training-courses,
+    .get-in-touch-section,
+    .training-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-Training{
+        width: 90%;
+    }
+    
+    .Rate-Careers-section h5{
+        font-size: 2vh;
+    }
+
+    .climate-img{
+        width: 15vh;
+    }
+
+    .image-next{
+        width: 80%;
+    }
+    .colored-select {
+        width: 100%;}
+}

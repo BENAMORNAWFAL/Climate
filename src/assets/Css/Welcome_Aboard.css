@@ -1,0 +1,258 @@
+.welcome_page {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 20rem;
+    background-color: rgba(152, 155, 155, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.welcome_page>section {
+    margin-top: 20rem;
+
+}
+
+.welcome_page h1 {
+
+    color: #2B1344;
+}
+
+.welcome_page h5,
+.welcome_page h6,
+.welcome_page h4,
+.welcome_page h3,
+.welcome_page h2 {
+    color: #2B1344;
+    margin: 0 0;
+}
+
+.welcome_page p {
+    color: #455a64;
+    margin: 0 0;
+}
+
+
+.welcome_top_page {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, #2b13449f, #2b1344ad, #2b1344d2, #2b1344e1, #2b1344f5, #2B1344);
+    background-size: 300% 300%;
+    animation: Color-welcome 12s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+@keyframes Color-welcome {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+
+
+.bg-welcome-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 90%;
+    height: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-welcome-text h1 {
+    font-size: 8vh;
+}
+
+.bg-welcome-text p {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.first-btn-welcome {
+    background-color: #2B1344;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.second-btn-welcome {
+
+    background-color: #2B1344;
+    color: #fff;
+    width: 130px;
+    margin: 0;
+}
+
+.first-btn-welcome:hover {
+
+    background-color: #2b13447c;
+}
+
+.second-btn-welcome:hover {
+    background-color: #2b13447c;
+
+}
+
+/* ******************************** */
+.image_welcome {
+    width: 100%;
+}
+
+.welcome_icon {
+    width: 50px;
+}
+
+/* **************************** */
+.section-bg-welcome {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: auto;
+    padding: 20vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: #00000036;
+}
+
+
+.section-bg-welcome h1 {
+    background: linear-gradient(45deg, #fff, #fff, #2B1344, #2B1344, #fff, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.section-bg-welcome p {
+    font-size: large;
+    background: linear-gradient(45deg, #fff, #fff, #fff, #fff, #2B1344, #2B1344);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.section-bg-welcome .form-control {
+    width: 30%;
+}
+
+.width-form-welcome {
+    width: 50%;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 992px){
+    .welcome_page {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bg-welcome-text h1{
+        font-size: 6vh;
+        text-align: center;
+    }
+
+    .bg-welcome-text p {
+        font-size: 3vh;
+    }
+
+    .welcome_icon {
+        width: 30px;
+    }
+
+    .section-bg-welcome {
+        padding: 1vh;
+    }
+
+    .section-bg-welcome .form-control {
+        width: 70%;
+    }
+
+    .section-bg-welcome p {
+        background: linear-gradient(45deg, #fff, #fff,#fff, #2B1344, #2B1344, #2B1344, #2B1344);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+    }
+
+    .section-bg-welcome h1 {
+        color: #2B1344;
+    }
+
+    .width-form-welcome{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome_page {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bg-welcome-text h1 {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .bg-welcome-text p {
+        font-size: 2vh;
+    }
+
+    .welcome_icon {
+        width: 30px;
+    }
+
+    .section-bg-welcome {
+        padding: 1vh;
+    }
+
+    .section-bg-welcome .form-control {
+        width: 80%;
+    }
+
+    .section-bg-welcome p {
+        background: linear-gradient(45deg, #fff, #fff,#fff, #2B1344, #2B1344, #2B1344, #2B1344);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+    }
+
+    .section-bg-welcome h1 {
+        color: #2B1344;
+    }
+
+    .width-form-welcome{
+        width: 100%;
+    }
+}
