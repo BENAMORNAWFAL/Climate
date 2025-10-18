@@ -1,0 +1,73 @@
+ // const [showSecondNavbar, setShowSecondNavbar] = useState(false);
+    // const [isResponsive, setIsResponsive] = useState(false);
+
+    // const handleMenuClick = () => {
+    //     setShowSecondNavbar((e) => !e);
+    // };
+    // const toggleResponsive = () => {
+    //     setIsResponsive(!isResponsive);
+    // };
+
+    // return (
+    //     <nav className="navbar">
+
+    //         <div className="navbar-container">
+    //             <div className='logo'>
+    //                 <img className="navbar-logo" src="src/assets/images/logo.png" alt="" />
+    //                 <h4 className="navbar-logo">CLIMATE</h4>
+    //             </div>
+    //             <div className="navbar-navigation">
+
+    //                 <div>
+    //                 <ul className="navbar-list">
+    //                     <li className="navbar-item">
+    //                         <Link to="/" className="navbar-link">Home</Link>
+    //                     </li>
+    //                     <li className="navbar-item">
+    //                         <Link to="/about" className="navbar-link">About Us</Link>
+    //                     </li>
+    //                     <li className="navbar-item">
+    //                         <Link to="/Services" className="navbar-link">Services</Link>
+    //                     </li>
+    //                     <li className="navbar-item" onClick={handleMenuClick}>
+
+    //                         <Link className="navbar-link">Careers ▼ </Link>
+
+    //                     </li>
+    //                 </ul>
+    //                 </div>
+    //                 <div className='btn'>
+    //                     <button id='btn-contact'><Link to="/contact" className='btn-link'>Contact Us</Link></button>
+    //                     <button id='btn-apply'>Apply Now</button>
+    //                 </div>
+    //             </div>
+
+    //         </div>
+    //         {showSecondNavbar && (
+    //             <>
+    //                 <nav className="second-navbar">
+    //                     <div className='tech-bootcamps'>
+    //                         <img className='bootcamp-img' src="src/assets/images/P2.png" alt="" />
+    //                         <span>Learn the latest tech skills</span>
+    //                     </div>
+    //                     <div className='tech-bootcamps'>
+    //                         <img className='bootcamp-img' src="src/assets/images/career-coaching.jpg" alt="" />
+    //                         <span>Position yourself as an expert</span>
+    //                     </div>
+    //                     <div className='tech-bootcamps'>
+    //                         <img className='bootcamp-img' src="src/assets/images/Freelancing2.png" alt="" />
+    //                         <span>Launch your freelancing career</span>
+    //                     </div>
+    //                     <div className='tech-bootcamps'>
+    //                         <img className='bootcamp-img' src="src/assets/images/job.jpg" alt="" />
+    //                         <span>Find your dream job</span>
+    //                     </div>
+
+    //                 </nav>
+    //                 <div >
+    //                     <p className='ready-contact'>Ready for a career change? <a href="/contact">Contact our team</a></p>
+    //                 </div>
+    //             </>
+    //         )}
+    //     </nav>
+    // );

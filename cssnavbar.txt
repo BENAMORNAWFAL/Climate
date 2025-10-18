@@ -1,0 +1,96 @@
+.navbar {
+    padding: 1rem;
+}
+
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 20rem;
+}
+.navbar-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 4;
+}
+.navbar-logo {
+    width: 25%;  
+    height: auto; 
+    
+}
+.navbar-logo{
+    color: #5c3c86;
+}
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    color: #000;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+.navbar-link:hover {
+    background-color: #36e9d4;
+    color: #000;
+}
+
+#btn-apply{
+    background-color: #000;
+    color :#fff;
+    :hover{
+        box-shadow: #36e9d4;
+    }
+}
+.btn-link{
+    color: #000;
+    :hover{
+        color: #36e9d4;
+    }
+}
+.btn{
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* The Second NavBar (Careers) */
+.second-navbar{
+    margin-left: 7rem;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    align-content: center;
+}
+.tech-bootcamps{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 20%;
+}
+.bootcamp-img{
+    width: 60%;
+}
+.ready-contact{
+    text-align: center;
+    background-color: rgba(191, 218, 218, 0.473);
+}
+

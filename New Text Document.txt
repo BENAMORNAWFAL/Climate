@@ -1,0 +1,612 @@
+<div style={{width: 1440, height: 8324, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+  <div style={{height: 253, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', height: 72, paddingLeft: 64, paddingRight: 64, borderBottom: '1px black solid', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+      <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+        <div style={{width: 63, height: 27, position: 'relative'}}>
+          <div style={{width: 12.68, height: 20.02, left: 0.56, top: 0.98, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.43, height: 15.29, left: 13.86, top: 6.02, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.12, height: 20.38, left: 30.27, top: 6.02, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.43, height: 15.29, left: 47.23, top: 6.02, position: 'absolute', background: 'black'}}></div>
+        </div>
+        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'flex'}}>
+          <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Home</div>
+          </div>
+          <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>About Us</div>
+          </div>
+          <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Services</div>
+          </div>
+          <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+              <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Careers</div>
+              <div style={{width: 24, height: 24, position: 'relative'}}>
+                <div style={{width: 12.59, height: 7.13, left: 5.70, top: 8.70, position: 'absolute', background: 'black'}}></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{justifyContent: 'center', alignItems: 'center', gap: 16, display: 'flex'}}>
+        <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 8, paddingBottom: 8, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+          <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Contact Us</div>
+        </div>
+        <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 8, paddingBottom: 8, background: 'black', border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+          <div style={{color: 'white', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Apply Now</div>
+        </div>
+      </div>
+    </div>
+    <div style={{alignSelf: 'stretch', height: 181, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+      <div style={{alignSelf: 'stretch', paddingTop: 32, paddingBottom: 32, paddingLeft: 64, paddingRight: 32, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+        <div style={{flex: '1 1 0', height: 61, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'flex'}}>
+          <div style={{flex: '1 1 0', height: 61, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'flex'}}>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 18, height: 20, left: 3, top: 2, position: 'absolute', background: 'black'}}></div>
+            </div>
+            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Tech Bootcamps</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>Learn the latest tech skills</div>
+            </div>
+          </div>
+          <div style={{flex: '1 1 0', height: 61, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'flex'}}>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 18, height: 20, left: 3, top: 2, position: 'absolute', background: 'black'}}></div>
+            </div>
+            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Career Coaching</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>Position yourself as an expert</div>
+            </div>
+          </div>
+          <div style={{flex: '1 1 0', height: 61, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'flex'}}>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 18, height: 20, left: 3, top: 2, position: 'absolute', background: 'black'}}></div>
+            </div>
+            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Freelancing School</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>Launch your freelancing career</div>
+            </div>
+          </div>
+          <div style={{flex: '1 1 0', height: 61, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'flex'}}>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 18, height: 20, left: 3, top: 2, position: 'absolute', background: 'black'}}></div>
+            </div>
+            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Job Opportunities</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>Find your dream job</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{alignSelf: 'stretch', paddingLeft: 64, paddingRight: 64, paddingTop: 16, paddingBottom: 16, background: '#EEEEEE', borderBottom: '1px black solid', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+          <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Ready for a career change?</div>
+          <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', textDecoration: 'underline', lineHeight: 24, wordWrap: 'break-word'}}>Contact our team</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 420, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Find</div>
+        <div style={{alignSelf: 'stretch', color: 'black', fontSize: 56, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 67.20, wordWrap: 'break-word'}}>Fulfill Your Potential</div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Discover exciting job opportunities in IT, Digital Marketing, and Fintech with Climate Careers. We connect talented candidates with top employers in Tunisia, abroad, and remote positions. Take the next step in your career today!</div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, background: 'black', border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'white', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 864, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+          <div style={{width: 106, alignSelf: 'stretch', transform: 'rotate(90deg)', transformOrigin: '0 0', border: '2px black solid'}}></div>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Remote Career Opportunities</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Discover exciting job opportunities in Tunisia and receive support throughout the application process.</div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+          <div style={{width: 106, alignSelf: 'stretch', transform: 'rotate(90deg)', transformOrigin: '0 0', opacity: 0, border: '2px black solid'}}></div>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Career Support Services</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>We provide comprehensive career support services to help you succeed in your job search in Tunisia.</div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+          <div style={{width: 106, alignSelf: 'stretch', transform: 'rotate(90deg)', transformOrigin: '0 0', opacity: 0, border: '2px black solid'}}></div>
+          <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>IT, Digital Marketing, Fintech</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Explore job opportunities in the thriving sectors of IT, Digital Marketing, and Fintech.</div>
+          </div>
+        </div>
+      </div>
+      <img style={{flex: '1 1 0', height: 640}} src="https://via.placeholder.com/616x640" />
+    </div>
+  </div>
+  <div style={{height: 582, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 48, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 270, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 198, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Explore Global Job Opportunities with Climate Consulting</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Climate Consulting's global network and partnerships provide a wide range of job opportunities abroad.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Apply Now</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 270, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 198, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Launch Your Freelance Career with Climate Consulting</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Climate Consulting helps aspiring freelancers in IT, Digital Marketing, and Fintech sectors.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Get Started</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 270, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 198, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Expand Your Skills with Climate School's Training Opportunities</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Climate School offers career coaching, professional reconversion, and continuous training programs.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 702, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{width: 768, textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 48, wordWrap: 'break-word'}}>Find Your Dream Job Anywhere with Climate Careers</div>
+    <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', gap: 48, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 212, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 140, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Explore Exciting Remote Work Opportunities with Climate Careers</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Discover the freedom and flexibility of remote work with Climate Careers.</div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 32, paddingTop: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 212, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 140, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Launch Your Freelance Career with Climate Careers</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Unlock your potential as a freelancer with Climate Careers.</div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 32, paddingTop: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 246, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 174, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Discover IT, Digital Marketing, and Fintech Opportunities with Climate Careers</div>
+            <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Explore exciting job prospects in the IT, Digital Marketing, and Fintech sectors with Climate Careers.</div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 32, paddingTop: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Apply</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 588, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 48, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 276, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 204, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Launch and Grow Your Freelance Career</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Climate Careers provides comprehensive support and guidance for professionals looking to start or advance their freelance careers in the IT, Digital Marketing, and Fintech sectors.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 276, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 204, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Training Opportunities for Freelancers</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Climate School offers a range of training programs designed to enhance the skills and knowledge of freelancers, including career coaching, professional reconversion, and continuous training.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 276, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{width: 48, height: 48, position: 'relative'}}>
+            <div style={{width: 36, height: 40, left: 6, top: 4, position: 'absolute', background: 'black'}}></div>
+          </div>
+          <div style={{alignSelf: 'stretch', height: 204, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Unlock Your Freelance Potential Today</div>
+            <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Discover the benefits of joining Climate Careers and gain access to a supportive community, valuable resources, and exciting freelance opportunities in Tunisia, Abroad, or fully remotely.</div>
+          </div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+          <div style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 1018, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-end', display: 'inline-flex'}}>
+      <div style={{width: 768, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Training</div>
+        <div style={{alignSelf: 'stretch', height: 109, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', color: 'black', fontSize: 48, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 57.60, wordWrap: 'break-word'}}>Explore Training Opportunities</div>
+          <div style={{alignSelf: 'stretch', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Discover IT, Digital Marketing, and Fintech courses</div>
+        </div>
+      </div>
+      <div style={{height: 48, paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>View all</div>
+      </div>
+    </div>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', border: '1px black solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <img style={{alignSelf: 'stretch', height: 300}} src="https://via.placeholder.com/416x300" />
+        <div style={{alignSelf: 'stretch', height: 265, padding: 24, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', height: 169, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+              <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 4, paddingBottom: 4, background: '#EEEEEE', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>Category</div>
+              </div>
+              <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>5 min read</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 124, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Unlock Your Potential with Training</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Enhance your skills with our IT, Digital Marketing, and Fintech courses</div>
+            </div>
+          </div>
+          <div style={{width: 109, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Read more</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', border: '1px black solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <img style={{alignSelf: 'stretch', height: 300}} src="https://via.placeholder.com/416x300" />
+        <div style={{alignSelf: 'stretch', height: 265, padding: 24, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', height: 169, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+              <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 4, paddingBottom: 4, background: '#EEEEEE', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>Category</div>
+              </div>
+              <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>5 min read</div>
+            </div>
+            <div style={{height: 124, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Master New Skills with Our Courses</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Stay ahead of the curve with our IT, Digital Marketing, and Fintech courses</div>
+            </div>
+          </div>
+          <div style={{width: 109, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Read more</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{flex: '1 1 0', border: '1px black solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <img style={{alignSelf: 'stretch', height: 300}} src="https://via.placeholder.com/416x300" />
+        <div style={{alignSelf: 'stretch', height: 265, padding: 24, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', height: 169, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+              <div style={{paddingLeft: 8, paddingRight: 8, paddingTop: 4, paddingBottom: 4, background: '#EEEEEE', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>Category</div>
+              </div>
+              <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 21, wordWrap: 'break-word'}}>5 min read</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 124, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Broaden Your Skill Set with Our Courses</div>
+              <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Expand your knowledge with our IT, Digital Marketing, and Fintech courses</div>
+            </div>
+          </div>
+          <div style={{width: 109, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Read more</div>
+            <div style={{width: 24, height: 24, position: 'relative'}}>
+              <div style={{width: 7.12, height: 11.41, left: 8.29, top: 5.54, position: 'absolute', background: 'black'}}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 532, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{height: 308, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'flex'}}>
+      <div style={{width: 140, height: 56, position: 'relative'}}>
+        <div style={{width: 134.98, height: 22.50, left: 2.50, top: 16.75, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 33.60, wordWrap: 'break-word'}}>Working with Climate Careers was a game-changer for me. They helped me secure a job in the IT industry, and I couldn't be happier.</div>
+      <div style={{height: 120, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+        <img style={{width: 56, height: 56, borderRadius: 9999}} src="https://via.placeholder.com/56x56" />
+        <div style={{alignSelf: 'stretch', height: 48, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>John Doe</div>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Software Engineer, ABC Inc.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 1006, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{height: 149, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+      <div style={{textAlign: 'center', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Start</div>
+      <div style={{alignSelf: 'stretch', height: 109, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 48, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 57.60, wordWrap: 'break-word'}}>Get in Touch</div>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Have a question? Need more information? Contact us now!</div>
+      </div>
+    </div>
+    <div style={{height: 553, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+      <div style={{alignSelf: 'stretch', height: 80, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Name</div>
+        <div style={{alignSelf: 'stretch', padding: 12, background: 'white', border: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}} />
+      </div>
+      <div style={{alignSelf: 'stretch', height: 80, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Email</div>
+        <div style={{alignSelf: 'stretch', padding: 12, background: 'white', border: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}} />
+      </div>
+      <div style={{alignSelf: 'stretch', height: 212, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Message</div>
+        <div style={{alignSelf: 'stretch', height: 180, padding: 12, background: 'white', border: '1px black solid', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+          <div style={{flex: '1 1 0', color: '#666666', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Enter your message...</div>
+          <div style={{width: 2.83, height: 0, left: 558, top: 176.24, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1px black solid'}}></div>
+          <div style={{width: 8.49, height: 0, left: 558, top: 172, position: 'absolute', transform: 'rotate(135deg)', transformOrigin: '0 0', border: '1px black solid'}}></div>
+        </div>
+      </div>
+      <div style={{width: 142, height: 37, paddingBottom: 16, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 18, height: 18, position: 'relative', background: 'white', border: '1px black solid'}} />
+        <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>I agree to the Terms</div>
+      </div>
+      <div style={{width: 99, paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, background: 'black', border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{color: 'white', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Submit</div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 624, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 80, display: 'flex'}}>
+    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'inline-flex'}}>
+      <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 194, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', color: 'black', fontSize: 48, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 57.60, wordWrap: 'break-word'}}>Take the next step in your career</div>
+          <div style={{alignSelf: 'stretch', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Sign up with Climate Consulting to find job opportunities in IT, Digital Marketing, and Fintech.</div>
+        </div>
+        <div style={{paddingTop: 16, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, background: 'black', border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'white', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Sign Up</div>
+          </div>
+          <div style={{paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+            <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Learn More</div>
+          </div>
+        </div>
+      </div>
+      <img style={{flex: '1 1 0', height: 400}} src="https://via.placeholder.com/616x400" />
+    </div>
+  </div>
+  <div style={{height: 1043, paddingLeft: 64, paddingRight: 64, paddingTop: 112, paddingBottom: 112, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{height: 819, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+      <div style={{height: 136, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 48, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 57.60, wordWrap: 'break-word'}}>FAQs</div>
+        <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Find answers to frequently asked questions about the job search process and how Climate Consulting can assist.</div>
+      </div>
+      <div style={{alignSelf: 'stretch', height: 366, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', height: 73, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+          <div style={{width: 768, paddingTop: 20, paddingBottom: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>How can Climate Consulting help?</div>
+            <div style={{width: 32, height: 32, position: 'relative'}}>
+              <div style={{width: 16.79, height: 9.50, left: 7.60, top: 11.60, position: 'absolute', background: 'black', border: '1px black solid'}}></div>
+            </div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 73, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+          <div style={{width: 768, paddingTop: 20, paddingBottom: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>What sectors do you specialize in?</div>
+            <div style={{width: 32, height: 32, position: 'relative'}}>
+              <div style={{width: 16.79, height: 9.50, left: 7.60, top: 11.60, position: 'absolute', background: 'black', border: '1px black solid'}}></div>
+            </div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 73, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+          <div style={{width: 768, paddingTop: 20, paddingBottom: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>How can I launch my freelance career?</div>
+            <div style={{width: 32, height: 32, position: 'relative'}}>
+              <div style={{width: 16.79, height: 9.50, left: 7.60, top: 11.60, position: 'absolute', background: 'black', border: '1px black solid'}}></div>
+            </div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 73, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+          <div style={{width: 768, paddingTop: 20, paddingBottom: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>What training opportunities are available?</div>
+            <div style={{width: 32, height: 32, position: 'relative'}}>
+              <div style={{width: 16.79, height: 9.50, left: 7.60, top: 11.60, position: 'absolute', background: 'black', border: '1px black solid'}}></div>
+            </div>
+          </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 73, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+          <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+          <div style={{width: 768, paddingTop: 20, paddingBottom: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>Still have questions?</div>
+            <div style={{width: 32, height: 32, position: 'relative'}}>
+              <div style={{width: 16.79, height: 9.50, left: 7.60, top: 11.60, position: 'absolute', background: 'black', border: '1px black solid'}}></div>
+            </div>
+          </div>
+        </div>
+        <div style={{width: 768, height: 1, background: 'black', border: '1px black solid'}} />
+      </div>
+      <div style={{height: 157, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', height: 85, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 41.60, wordWrap: 'break-word'}}>Contact Us</div>
+          <div style={{alignSelf: 'stretch', textAlign: 'center', color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 27, wordWrap: 'break-word'}}>Get in touch with our team for assistance.</div>
+        </div>
+        <div style={{width: 104, paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, border: '1px black solid', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+          <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'}}>Contact</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 291, paddingLeft: 64, paddingRight: 64, paddingTop: 80, paddingBottom: 80, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 48, display: 'flex'}}>
+    <div style={{color: 'black', fontSize: 18, fontFamily: 'Roboto', fontWeight: '700', lineHeight: 27, wordWrap: 'break-word'}}>Trusted by leading companies in the IT, Digital Marketing, and Fintech sectors</div>
+    <div style={{justifyContent: 'center', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 134.98, height: 22.50, left: 32.50, top: 16.75, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 132.52, height: 35.87, left: 34, top: 10.50, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 134.98, height: 22.50, left: 32.50, top: 16.75, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 132.52, height: 35.87, left: 34, top: 10.50, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 134.98, height: 22.50, left: 32.50, top: 16.75, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 132.52, height: 35.87, left: 34, top: 10.50, position: 'absolute', background: 'black'}}></div>
+      </div>
+      <div style={{width: 200, height: 56, position: 'relative'}}>
+        <div style={{width: 134.98, height: 22.50, left: 32.50, top: 16.75, position: 'absolute', background: 'black'}}></div>
+      </div>
+    </div>
+  </div>
+  <div style={{height: 401, paddingLeft: 64, paddingRight: 64, paddingTop: 80, paddingBottom: 80, background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex'}}>
+    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'flex'}}>
+      <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+        <div style={{width: 63, height: 27, position: 'relative'}}>
+          <div style={{width: 12.68, height: 20.02, left: 0.56, top: 0.98, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.43, height: 15.29, left: 13.86, top: 6.02, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.12, height: 20.38, left: 30.27, top: 6.02, position: 'absolute', background: 'black'}}></div>
+          <div style={{width: 15.43, height: 15.29, left: 47.23, top: 6.02, position: 'absolute', background: 'black'}}></div>
+        </div>
+      </div>
+      <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>About Us</div>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Climate HR</div>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Climate School</div>
+        <div style={{width: 97, color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Climate Careers</div>
+        <div style={{color: 'black', fontSize: 16, fontFamily: 'Roboto', fontWeight: '600', lineHeight: 24, wordWrap: 'break-word'}}>Contact Us</div>
+      </div>
+    </div>
+    <div style={{alignSelf: 'stretch', height: 54, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'flex'}}>
+      <div style={{alignSelf: 'stretch', height: 1, background: 'black', border: '1px black solid'}} />
+      <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>© 2023 Climate HR. All rights reserved.</div>
+        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+          <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Privacy Policy</div>
+          <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Terms and Conditions</div>
+          <div style={{color: 'black', fontSize: 14, fontFamily: 'Roboto', fontWeight: '400', textDecoration: 'underline', lineHeight: 21, wordWrap: 'break-word'}}>Cookie Policy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
